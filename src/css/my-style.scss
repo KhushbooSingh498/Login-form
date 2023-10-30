@@ -1,0 +1,26 @@
+input{
+    padding: 6px;
+    font-size: 14px;
+    &:focus-visible{
+        border: unset;
+        outline: none;
+    }
+}
+label{
+    font-size: 1rem;
+    line-height: 1.2;
+    font-weight: 500;
+}
+.main{
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.alertbox{
+    margin-top: 1rem;
+    h3{
+        font-size: 14px;
+    }
+}

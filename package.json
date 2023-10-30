@@ -2,20 +2,27 @@
   "name": "login-form",
   "version": "1.0.0",
   "description": "This is practice Login Form",
-  "main": "App.js",
+  "main": "src/App.js",
   "scripts": {
     "test": "zest",
     "start": "parcel index.html",
     "build": "parcel build index.html"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KhushbooSingh498/Login-form.git"
+  },
   "author": "Khushboo Singh",
   "license": "ISC",
   "devDependencies": {
+    "@parcel/transformer-sass": "^2.10.1",
     "parcel": "^2.10.1",
     "process": "^0.11.10"
   },
   "dependencies": {
+    "bootstrap": "^5.3.2",
     "react": "^18.2.0",
-    "react-dom": "^18.2.0"
+    "react-dom": "^18.2.0",
+    "sass": "^1.69.5"
   }
 }

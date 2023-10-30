@@ -1,11 +1,12 @@
 import React from 'react';
 import  ReactDOM  from 'react-dom/client';
+import LoginPage from './LoginPage';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import './css/my-style.scss';
 
 const AppLayout = () =>{
     return (
-        <div>
-            Im started
-        </div>
+        <LoginPage />
     )
 }
 
